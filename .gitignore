@@ -1,0 +1,69 @@
+/target/
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @levunguyen
+ Unwatch 5
+  Star 0
+ Fork 0 levunguyen/mobilemarket
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathmobilemarket/.gitignore
+a5b55be  on Oct 22
+ vunguyen init
+0 contributors
+RawBlameHistory     
+60 lines (46 sloc)  981 Bytes
+*.class
+/target
+*/target
+/.settings
+*/.settings
+*/.externalToolBuilders
+.classpath
+.project
+*/.idea
+*/.pmd
+/bin/
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
